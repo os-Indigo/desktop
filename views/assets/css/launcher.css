@@ -1,0 +1,61 @@
+.launcher {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+
+  transition-duration: 0.5s;
+  display: none;
+  background-color: rgba(0, 0, 0, 0.5)
+}
+
+.launcher .app-list {
+  position: absolute;
+  top: 200px;
+  bottom: 60px;
+  width: 30%;
+  left: 50%;
+  transform: translate(-50%);
+  overflow: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-content: baseline;
+}
+
+.launcher .search {
+  width: 30%;
+  height: 50px;
+  background-color: white;
+  border-radius: 50px;
+  border: none;
+  position: absolute;
+  top: 80px;
+  left: 50%;
+  transform: translate(-50%);
+  padding-right: 20px;
+  padding-left: 20px;
+  font-size: 20px;
+}
+
+.app-launcher {
+  width: 70px;
+  height: 70px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  cursor: pointer;
+  border: 10px solid transparent;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  float: left;
+  transition-duration: 0.2s;
+}
+
+.app-launcher:hover {
+  background-color: rgba(0, 0, 0, 0.5);
+  border: 10px solid rgba(0, 0, 0, 0.1);
+}

@@ -1,0 +1,29 @@
+.welcome {
+  text-align: center;
+}
+
+.welcome h1 {
+  font-size: 40px;
+}
+
+.welcome img {
+  width: 40%;
+}
+
+.mdl-card {
+  width: auto;
+}
+
+.mdl-card__title {
+  color: #fff;
+  height: 176px;
+  background-color: #7630ff;
+}
+.mdl-card__menu {
+  color: #fff;
+}
+
+.mdl-card__actions {
+  position: absolute;
+  bottom: 0;
+}

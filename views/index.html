@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="./assets/fonts/material-icons.css">
+
+  <link rel="stylesheet" href="./assets/css/main.css">
+  <link rel="stylesheet" href="./assets/css/material.min.css">
+
+  <link rel="stylesheet" href="./assets/css/dock.css">
+  <link rel="stylesheet" href="./assets/css/infos.css">
+  <link rel="stylesheet" href="./assets/css/launcher.css">
+  <link rel="stylesheet" href="./assets/css/window.css">
+</head>
+<body">
+  <div class="desktop">
+    <div class="window" id="hello world !">
+      <div class="window-frame"></div>
+      <webview src="https://google.com" class="window-content"></webview>
+    </div>    
+  </div>
+  <div class="launcher">
+    <input type="text" oninput="launcher.search(this.value)" class="search" placeholder="Search an app, website, etc."></input>
+    <div class="app-list"></div>
+  </div>
+  <div class="dock">
+    <i class="material-icons home" onclick="launcher.toggle()">radio_button_unchecked</i>
+    <div class="dock-items"></div>
+  </div>
+  <div class="infos">
+    <i class="material-icons">network_wifi</i>
+    <i class="material-icons">bluetooth</i>
+    <i class="material-icons">battery_full</i>
+    <i class="material-icons">notifications</i>
+    <i class="material-icons">volume_up</i>
+    <i class="material-icons">settings_power</i>
+    <h3 class="infos-time">16 : 02</h3>
+  </div>
+  <div class="infos-menu">
+    <i class="material-icons" style="color: black;">volume_up</i>
+    <div style="width: 100%;">
+      <input class="mdl-slider mdl-js-slider" type="range" min="0" max="100" value="50" tabindex="0">
+    </div>
+  </div>
+</body>
+
+
+<script>
+const apps = require(`${__dirname}/../modules/apps/index.js`)
+</script>
+
+<script src="./assets/js/material.min.js"></script>
+<script src="./assets/js/launcher.js"></script>
+<script src="./assets/js/dock.js"></script>
+<script src="./assets/js/init.js"></script>
+
+</html>

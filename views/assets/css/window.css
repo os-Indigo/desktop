@@ -1,0 +1,22 @@
+.window {
+  width: 500px;
+  height: 400px;
+  background-color: white;
+  border-radius: 5px;
+
+  position: relative;
+  top: 69px;
+  left: 60px;
+}
+
+.window-frame {
+  position: relative;
+  top: 0px;
+  left: 0;
+  right: 0;
+  height: 20px;
+
+  background-color: black;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
