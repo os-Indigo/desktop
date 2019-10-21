@@ -13,7 +13,6 @@ const createMainWindow = () => {
     height: w.size.width,
     x: w.bounds.x,
     y: 0,
-
     webPreferences: {
       nodeIntegration: true
     }
