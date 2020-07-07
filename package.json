@@ -9,7 +9,7 @@
   "author": "Robin Jullian",
   "license": "NPOSL-3.0",
   "dependencies": {
-    "electron": "^6.0.12",
+    "electron": "^7.2.4",
     "xpra-html5-client": "^1.0.3"
   }
 }
