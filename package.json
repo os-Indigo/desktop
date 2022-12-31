@@ -10,6 +10,6 @@
   "license": "NPOSL-3.0",
   "dependencies": {
     "electron": "^6.0.12",
-    "xpra-html5-client": "^1.0.3"
+    "xpra-html5-client": "^2.3.0"
   }
 }
